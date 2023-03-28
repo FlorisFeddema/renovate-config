@@ -18,6 +18,7 @@
       "automergeType": "pr"
     }
   ],
+  "prHourlyLimit": 0,
   "dependencyDashboard": true,
   "prConcurrentLimit": 20,
   "branchConcurrentLimit": 20,
