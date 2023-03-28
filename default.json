@@ -1,22 +1,22 @@
 {
   "extends": [
     "config:base",
-    ":gitSignOff",
+    ":gitSignOff"
   ],
   "baseBranches": [
-    "main",
+    "main"
   ],
   "automergeSchedule": [
-    "at any time",
+    "at any time"
   ],
   "packageRules": [
     {
       "matchUpdateTypes": [ 
-        "patch", "pin", "digest",
+        "patch", "pin", "digest"
       ],
       "automerge": true,
-      "automergeType": "pr",
-    },
+      "automergeType": "pr"
+    }
   ],
   "dependencyDashboard": true,
   "prConcurrentLimit": 20,
@@ -26,5 +26,5 @@
   "configMigration": true,
   "separateMinorPatch": true,
   "separateMajorMinor": true,
-  "separateMultipleMajor": true,
+  "separateMultipleMajor": true
 }
