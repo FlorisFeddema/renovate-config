@@ -15,7 +15,6 @@
         "patch", "pin", "digest"
       ],
       "automerge": true,
-      "automergeType": "pr"
     }
   ],
   "prHourlyLimit": 0,
