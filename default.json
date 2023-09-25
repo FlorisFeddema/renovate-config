@@ -15,6 +15,7 @@
         "patch"
       ],
       "automerge": true,
+      "ignoreTests": true
     }
   ],
   "prHourlyLimit": 0,
