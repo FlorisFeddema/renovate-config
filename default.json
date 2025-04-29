@@ -3,6 +3,9 @@
     "config:recommended",
     ":gitSignOff"
   ],
+  "helm-values": {
+    "enabled": true
+  },
   "baseBranches": [
     "main"
   ],
